@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "scripts": {
+        "webpack": "export NODE_ENV=development && webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "dev": "export NODE_ENV=development && webpack --hide-modules --watch",
+        "production": "export NODE_ENV=production && webpack --hide-modules",
+        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch-poll": "npm run watch -- --watch-poll"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.2",
+        "@babel/preset-env": "^7.6.2",
+        "axios": "^0.19.0",
+        "babel-loader": "^8.0.6",
+        "cross-env": "^5.1",
+        "laravel-mix": "^4.1.4",
+        "lodash": "^4.17.13",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.15.2",
+        "sass-loader": "^7.1.0",
+        "vue": "^2.6.10",
+        "vue-template-compiler": "^2.6.10",
+        "webpack": "^4.41.0",
+        "webpack-cli": "^3.3.9"
+    }
+}

@@ -1,0 +1,12 @@
+
+
+@media (max-width: 768px){
+	.navigation .navbar-toggle {
+	    display: block!important; 
+	}
+}
+@media (max-width:1400px){
+	li.header-search {
+    max-width:625px;
+	}
+}
